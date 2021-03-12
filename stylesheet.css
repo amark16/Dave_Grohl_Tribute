@@ -1,0 +1,101 @@
+html {
+    font-size: 10px;
+    background: linear-gradient(45deg, rgb(218, 218, 218), rgb(62, 69, 131));
+}
+
+main {  
+    text-align: center;
+    font-family: Raleway, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 2;
+}
+
+#title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#subtitle {
+    font-size: 2rem;
+}
+
+@media (max-width: 500px) {
+    #subtitle {font-size: 1.2rem;}
+}
+
+#img-div {
+    background-color: rgb(63, 63, 63);
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 100%;
+    margin: auto;
+    }
+
+#image {
+    border-radius: 10px;
+    border-color: rgb(204, 204, 204);
+    border-style: solid;
+    display: block;
+    max-width: 50%;
+    height:auto;
+    margin:auto;
+}
+
+@media (max-width: 500px) {
+    #image {max-width: 100%;}
+    }
+
+#img-caption {
+    margin-top:40px;
+    color:rgb(204, 204, 204);
+    font-size: 1.6rem;  
+}
+
+@media (max-width: 500px) {
+    #img-caption {font-size: 1rem;}
+}
+
+#tribute-info {
+    text-align: center;
+    font-size: 2rem;
+    max-width: 50%;
+    margin:0 auto ;
+    }
+
+@media (max-width: 500px) {
+    #tribute-info {max-width: 100%; font-size: 1.3rem;}
+    }
+
+#list {
+    text-align: justify;
+    margin-right: 30px;
+}
+
+#headline {
+        font-size: 3rem;
+}
+
+#quote {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-style: italic;
+}
+
+@media (max-width: 500px) {
+    #quote {max-width: 100%; padding: 5px; font-size: 1.3rem;}
+}
+
+#tribute-link {
+    text-align: center;
+    margin:0 auto;
+    }
+
+a:link {
+    text-decoration: none;
+    color: rgb(0, 79, 182);
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(0, 79, 182);
+}
